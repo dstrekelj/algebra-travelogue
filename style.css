@@ -101,11 +101,10 @@ Header navigation styles
 */
 
 .navigation {
-  text-align: center;
-}
-
-.navigation-item:nth-child(n + 2) {
-  margin-left: 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 32px;
 }
 
 /*
@@ -127,13 +126,12 @@ Header styles
 */
 
 .header {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
   margin-top: 80px;
   margin-bottom: 80px;
-}
-
-.header .navigation {
-  margin-top: 16px;
 }
 
 /*
