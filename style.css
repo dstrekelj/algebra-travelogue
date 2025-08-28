@@ -41,6 +41,20 @@ Typography
   line-height: 150%;
 }
 
+.highlight {
+  font-family: Rubik, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 150%;
+}
+
+.highlight-subtitle {
+  font-family: Rubik, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 200%;
+}
+
 /*
 
 Colors
@@ -224,4 +238,25 @@ Article styles
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+/*
+
+Newsletter styles
+
+*/
+
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 128px;
+  padding: 40px 192px 40px 96px;
+  background-color: #f6f6f6;
+}
+
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14.55px;
 }
